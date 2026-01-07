@@ -23,7 +23,7 @@ export function AppHeader() {
       </div>
       
       <div className="flex items-center gap-2">
-        <Button 
+        { /*  <Button 
           variant="ghost" 
           size="icon" 
           className="text-muted-foreground hover:text-foreground"
@@ -31,13 +31,13 @@ export function AppHeader() {
         >
           {isDark ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
         </Button>
-        <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-foreground relative">
+     <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-foreground relative d-none">
           <Bell className="h-5 w-5" />
           <span className="absolute top-1.5 right-1.5 h-2 w-2 bg-destructive rounded-full" />
         </Button>
-        <div className="ml-2 h-9 w-9 rounded-full gradient-primary flex items-center justify-center text-primary-foreground font-semibold text-sm">
+        <div className="ml-2 h-9 w-9 rounded-full gradient-primary flex items-center justify-center text-primary-foreground font-semibold text-sm d-none">
           AD
-        </div>
+        </div> */ }
       </div>
     </header>
   );
